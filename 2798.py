@@ -10,4 +10,5 @@ for i in range(n):
             else:
                 re = max(re, arr[i] + arr[j] + arr[k])
 
+
 print(re)
