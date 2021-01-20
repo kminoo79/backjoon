@@ -1,17 +1,10 @@
-def d(n):
-    a = 0
-    for x in list(str(n)):
-        a = a + int(x) 
-    return int(n) + a
+def ch(k):
+    for x in list(str(k)):
+        k += int(x)
+    return k
     
-a= []
+arr= [ch(_) for _ in range(1, 10001)]
 
-for i in range(1,10001):
-    k = d(i)
-    a.append(k)
-
-for b in range(1, 10001):
-    if b in a:
-        pass
-    else:
-        print(b)
+for x in range(1, 10001):
+    if x in arr: pass
+    else: print(x)
