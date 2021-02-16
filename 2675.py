@@ -17,4 +17,3 @@ for x in range(n):
 #     text = ''
 #     for i in s:
 #         text += int(num) * i
-#     print(text)
